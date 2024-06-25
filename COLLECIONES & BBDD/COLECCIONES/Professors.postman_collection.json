@@ -1,0 +1,189 @@
+{
+	"info": {
+		"_postman_id": "549d42b0-5c58-4772-b854-72bbe994c001",
+		"name": "Professors",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "36531222"
+	},
+	"item": [
+		{
+			"name": "Eliminar Profesor",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoicGFzc3dvcmQxIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvZW1haWxhZGRyZXNzIjoiYWxpY2Uuc21pdGhAZXhhbXBsZS5jb20iLCJleHAiOjE3MTkyOTMyNjZ9.VN-nYA5PhfPx5pEu3A1Gx3VLBa-WAtGkU9bBene-uqo",
+							"type": "string"
+						}
+					]
+				},
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"Email\":\"Alejoquevedo0598@gmail.com\",\r\n\t\"Password\":\"123\",\r\n    \"FirstName\":\"Alejandro\",\r\n    \"StudentId\":\"1\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7184/CRUDProfessor/GetProfesso/3",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7184",
+					"path": [
+						"CRUDProfessor",
+						"GetProfesso",
+						"3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Obtener Profesor por id",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoicGFzc3dvcmQxIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvZW1haWxhZGRyZXNzIjoiYWxpY2Uuc21pdGhAZXhhbXBsZS5jb20iLCJleHAiOjE3MTkyOTM5MzJ9.Ytev0hBMIq6ubHCed-62OFXdeXsIZcAFQttChbByPFo",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7184/CRUDProfessor/GetProfessor/3",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7184",
+					"path": [
+						"CRUDProfessor",
+						"GetProfessor",
+						"3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Actualizar profesor",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoicGFzc3dvcmQxIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvZW1haWxhZGRyZXNzIjoiYWxpY2Uuc21pdGhAZXhhbXBsZS5jb20iLCJleHAiOjE3MTkyOTQwMjB9.c7IRJRbQGEbmo34vPZx1F0dJmxG6Jyhy-BNOS4pPdis",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"ProfessorId\":2,\r\n    \"FirstName\":\"Alejandro\",\r\n    \"LastName\":\"Quevedo\",\r\n    \"Address\":\"Calle siempre viva\",\r\n    \"Phone\":\"31-0909-3\",\r\n    \"Specialty\":\"Development\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7184/CRUDProfessor/UpdateProfessor",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7184",
+					"path": [
+						"CRUDProfessor",
+						"UpdateProfessor"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Obtener Lista de Profesores",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoicGFzc3dvcmQxIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvZW1haWxhZGRyZXNzIjoiYWxpY2Uuc21pdGhAZXhhbXBsZS5jb20iLCJleHAiOjE3MTkyOTMyNjZ9.VN-nYA5PhfPx5pEu3A1Gx3VLBa-WAtGkU9bBene-uqo",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7184/CRUDProfessor/GetProfessor",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7184",
+					"path": [
+						"CRUDProfessor",
+						"GetProfessor"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Crear profesor",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoicGFzc3dvcmQxIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvZW1haWxhZGRyZXNzIjoiYWxpY2Uuc21pdGhAZXhhbXBsZS5jb20iLCJleHAiOjE3MTkyOTMyNjZ9.VN-nYA5PhfPx5pEu3A1Gx3VLBa-WAtGkU9bBene-uqo",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"FirstName\":\"Alejandro\",\r\n    \"LastName\":\"Quevedo\",\r\n    \"Address\":\"Calle siempre viva\",\r\n    \"Phone\":\"31-0909-3\",\r\n    \"Specialty\":\"Development\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7184/CRUDProfessor/CreateProfessor",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7184",
+					"path": [
+						"CRUDProfessor",
+						"CreateProfessor"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

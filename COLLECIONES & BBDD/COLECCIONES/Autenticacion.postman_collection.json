@@ -1,0 +1,42 @@
+{
+	"info": {
+		"_postman_id": "4058fa0b-5fc7-4db9-be90-68bf611ed59c",
+		"name": "Autenticacion",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "36531222"
+	},
+	"item": [
+		{
+			"name": "Generar Token",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Email\":\"alice.smith@example.com\",\r\n    \"Password\":\"password1\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7184/Token/GenerarToken",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7184",
+					"path": [
+						"Token",
+						"GenerarToken"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

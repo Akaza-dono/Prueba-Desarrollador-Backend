@@ -1,0 +1,170 @@
+{
+	"info": {
+		"_postman_id": "8c8ac90f-941f-4444-8837-aada777f6ea5",
+		"name": "Students",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "36531222"
+	},
+	"item": [
+		{
+			"name": "Obtener Estudiantes",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoicGFzc3dvcmQxIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvZW1haWxhZGRyZXNzIjoiYWxpY2Uuc21pdGhAZXhhbXBsZS5jb20iLCJleHAiOjE3MTkyOTMyNjZ9.VN-nYA5PhfPx5pEu3A1Gx3VLBa-WAtGkU9bBene-uqo",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7184/CRUDEstudents/GetStudents",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7184",
+					"path": [
+						"CRUDEstudents",
+						"GetStudents"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Actualizar Estudiante",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoicGFzc3dvcmQxIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvZW1haWxhZGRyZXNzIjoiYWxpY2Uuc21pdGhAZXhhbXBsZS5jb20iLCJleHAiOjE3MTkyOTMyNjZ9.VN-nYA5PhfPx5pEu3A1Gx3VLBa-WAtGkU9bBene-uqo",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"StudentId\": 2,\r\n    \"FirstName\":\"Alejandro\",\r\n    \"LastName\":\"Quevedo\",\r\n    \"DateOfBirth\":\"1990-05-15\",\r\n    \"Address\":\"Calle 123\",\r\n    \"Phone\":\"31030611111\",\r\n    \"IsActive\":true,\r\n    \"Email\":\"a@gmail.com\",\r\n    \"Password\":\"123333\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7184/CRUDEstudents/UpdateStudent",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7184",
+					"path": [
+						"CRUDEstudents",
+						"UpdateStudent"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Obtener Estudiante por ID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7184/CRUDEstudents/GetStudents/2",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7184",
+					"path": [
+						"CRUDEstudents",
+						"GetStudents",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Eliminar Estudiante",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoicGFzc3dvcmQxIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvZW1haWxhZGRyZXNzIjoiYWxpY2Uuc21pdGhAZXhhbXBsZS5jb20iLCJleHAiOjE3MTkyOTMyNjZ9.VN-nYA5PhfPx5pEu3A1Gx3VLBa-WAtGkU9bBene-uqo",
+							"type": "string"
+						}
+					]
+				},
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7184/CRUDEstudents/DeleteStudent/2",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7184",
+					"path": [
+						"CRUDEstudents",
+						"DeleteStudent",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Crear Estudiante",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoicGFzc3dvcmQxIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvZW1haWxhZGRyZXNzIjoiYWxpY2Uuc21pdGhAZXhhbXBsZS5jb20iLCJleHAiOjE3MTkyOTMyNjZ9.VN-nYA5PhfPx5pEu3A1Gx3VLBa-WAtGkU9bBene-uqo",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"FirstName\":\"Felipe\",\r\n    \"LastName\":\"Quevedo\",\r\n    \"DateOfBirth\":\"1998-08-23\",\r\n    \"Address\":\"Calle 5\",\r\n    \"Phone\":\"2333\",\r\n    \"IsActive\": true,\r\n    \"Email\":\"t@gmail.com\",\r\n    \"Password\":\"1111\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7184/CRUDEstudents/CreateStudent",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7184",
+					"path": [
+						"CRUDEstudents",
+						"CreateStudent"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
