@@ -1,3 +1,4 @@
+using API.Data;
 using API.DDBBModels;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
@@ -21,27 +22,46 @@ namespace API.Controllers
         }
 
         [HttpPost("GenerarToken")]
-        public string Get([FromBody]Usuario user)
+        public string Get([FromBody] Student user)
         {
-            var clains = new[]
-            {
-                new Claim(ClaimTypes.Name, user.NombreUsuario),
-                new Claim(ClaimTypes.Email, user.Correo),
-            };
+            using(CRUDbContext context = new()){
+                try
+                {
+                    var query = context.Students.Where(e => e.Email == user.Email).FirstOrDefault();
+                    if (query != null && query.Password == user.Password)
+                    {
+                        var clains = new[]
+                        {
+                        new Claim(ClaimTypes.Name, user.Password),
+                        new Claim(ClaimTypes.Email, user.Email ?? ""),
+                    };
 
-            var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(config.GetSection("Setting").GetSection("Apitoken").Value));
-            var cred = new SigningCredentials(key, SecurityAlgorithms.HmacSha256Signature);
+                        var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(config.GetSection("Setting").GetSection("Apitoken").Value));
+                        var cred = new SigningCredentials(key, SecurityAlgorithms.HmacSha256Signature);
 
-            var securityToken = new JwtSecurityToken(
-                    claims: clains,
-                    expires: DateTime.Now.AddMinutes(60),
-                    signingCredentials: cred
-                );
+                        var securityToken = new JwtSecurityToken(
+                                claims: clains,
+                                expires: DateTime.Now.AddMinutes(60),
+                                signingCredentials: cred
+                            );
 
-            string token = new JwtSecurityTokenHandler().WriteToken(securityToken);
+                        string token = new JwtSecurityTokenHandler().WriteToken(securityToken);
 
-            return token;
+                        return token;
+                    }
+                    else
+                    {
+                        return "";
+                    }
+                }
+                catch (Exception ex)
+                {
 
+                    throw new Exception($"Cannot create token {ex}");
+                }
+            }
+
+           
         }
     }
 }

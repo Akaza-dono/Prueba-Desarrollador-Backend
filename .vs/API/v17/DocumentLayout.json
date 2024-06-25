@@ -1,30 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\migue\\source\\repos\\API\\",
+  "WorkspaceRootPath": "C:\\Users\\migue\\Downloads\\API_JWT\\API_JWT\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4690B891-0C30-4A53-8C56-E5C039CBAA8A}|API\\API.csproj|c:\\users\\migue\\source\\repos\\api\\api\\controllers\\crudcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4690B891-0C30-4A53-8C56-E5C039CBAA8A}|API\\API.csproj|solutionrelative:api\\controllers\\crudcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4690B891-0C30-4A53-8C56-E5C039CBAA8A}|API\\API.csproj|c:\\users\\migue\\source\\repos\\api\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4690B891-0C30-4A53-8C56-E5C039CBAA8A}|API\\API.csproj|solutionrelative:api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4690B891-0C30-4A53-8C56-E5C039CBAA8A}|API\\API.csproj|c:\\users\\migue\\source\\repos\\api\\api\\controllers\\tokencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4690B891-0C30-4A53-8C56-E5C039CBAA8A}|API\\API.csproj|solutionrelative:api\\controllers\\tokencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4690B891-0C30-4A53-8C56-E5C039CBAA8A}|API\\API.csproj|c:\\users\\migue\\source\\repos\\api\\api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{4690B891-0C30-4A53-8C56-E5C039CBAA8A}|API\\API.csproj|solutionrelative:api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4690B891-0C30-4A53-8C56-E5C039CBAA8A}|API\\API.csproj|c:\\users\\migue\\source\\repos\\api\\api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{4690B891-0C30-4A53-8C56-E5C039CBAA8A}|API\\API.csproj|solutionrelative:api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4690B891-0C30-4A53-8C56-E5C039CBAA8A}|API\\API.csproj|c:\\users\\migue\\source\\repos\\api\\api\\data\\crudbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4690B891-0C30-4A53-8C56-E5C039CBAA8A}|API\\API.csproj|solutionrelative:api\\data\\crudbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4690B891-0C30-4A53-8C56-E5C039CBAA8A}|API\\API.csproj|c:\\users\\migue\\downloads\\api_jwt\\api_jwt\\api\\controllers\\crudprofessorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4690B891-0C30-4A53-8C56-E5C039CBAA8A}|API\\API.csproj|solutionrelative:api\\controllers\\crudprofessorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -33,86 +13,20 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 249,
-          "SelectedChildIndex": 3,
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CRUDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\migue\\source\\repos\\API\\API\\Data\\CRUDbContext.cs",
-              "RelativeDocumentMoniker": "API\\Data\\CRUDbContext.cs",
-              "ToolTip": "C:\\Users\\migue\\source\\repos\\API\\API\\Data\\CRUDbContext.cs",
-              "RelativeToolTip": "API\\Data\\CRUDbContext.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAIAwwCIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T16:31:37.317Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "TokenController.cs",
-              "DocumentMoniker": "C:\\Users\\migue\\source\\repos\\API\\API\\Controllers\\TokenController.cs",
-              "RelativeDocumentMoniker": "API\\Controllers\\TokenController.cs",
-              "ToolTip": "C:\\Users\\migue\\source\\repos\\API\\API\\Controllers\\TokenController.cs",
-              "RelativeToolTip": "API\\Controllers\\TokenController.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAAMwC8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T16:25:03.695Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\migue\\source\\repos\\API\\API\\Program.cs",
-              "RelativeDocumentMoniker": "API\\Program.cs",
-              "ToolTip": "C:\\Users\\migue\\source\\repos\\API\\API\\Program.cs",
-              "RelativeToolTip": "API\\Program.cs",
-              "ViewState": "AQIAACEAAAAAAAAAAAAuwEEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T16:22:20.204Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CRUDController.cs",
-              "DocumentMoniker": "C:\\Users\\migue\\source\\repos\\API\\API\\Controllers\\CRUDController.cs",
-              "RelativeDocumentMoniker": "API\\Controllers\\CRUDController.cs",
-              "ToolTip": "C:\\Users\\migue\\source\\repos\\API\\API\\Controllers\\CRUDController.cs",
-              "RelativeToolTip": "API\\Controllers\\CRUDController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAgAAAA",
+              "Title": "CRUDProfessorController.cs",
+              "DocumentMoniker": "C:\\Users\\migue\\Downloads\\API_JWT\\API_JWT\\API\\Controllers\\CRUDProfessorController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\CRUDProfessorController.cs",
+              "ToolTip": "C:\\Users\\migue\\Downloads\\API_JWT\\API_JWT\\API\\Controllers\\CRUDProfessorController.cs",
+              "RelativeToolTip": "API\\Controllers\\CRUDProfessorController.cs",
+              "ViewState": "AQIAAEEAAAAAAAAAAAAIwGAAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T16:57:19.909Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\migue\\source\\repos\\API\\API\\appsettings.json",
-              "RelativeDocumentMoniker": "API\\appsettings.json",
-              "ToolTip": "C:\\Users\\migue\\source\\repos\\API\\API\\appsettings.json",
-              "RelativeToolTip": "API\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAADAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-06-24T16:24:42.133Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Users\\migue\\source\\repos\\API\\API\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "API\\appsettings.Development.json",
-              "ToolTip": "C:\\Users\\migue\\source\\repos\\API\\API\\appsettings.Development.json",
-              "RelativeToolTip": "API\\appsettings.Development.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-06-24T16:24:55.337Z",
+              "WhenOpened": "2024-06-25T03:18:55.617Z",
               "EditorCaption": ""
             }
           ]

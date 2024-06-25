@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fEwHvHvnA8aGmP0TLIg1cAoMTsFl+N6eQcEWV1W6xuzg0Eu8IruB9En+l+E9YiQbAH3e7KKg9dUPHWY+ytgTyw==",
+  "dgSpecHash": "8X/THSP4eFEhRKzxXA36/BRTemq7yHMsLcBew01H0Qb9K9mRt1OljiUGe+xWmqzTSRZ2X2BWSw4JziRJp38CkQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\migue\\OneDrive\\Escritorio\\PROJECTS\\API_JWT\\API\\API.csproj",
+  "projectFilePath": "C:\\Users\\migue\\Downloads\\API_JWT\\API_JWT\\API\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\migue\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\migue\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\6.0.31\\microsoft.aspnetcore.authentication.jwtbearer.6.0.31.nupkg.sha512",

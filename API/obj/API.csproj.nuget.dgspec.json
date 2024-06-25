@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\migue\\OneDrive\\Escritorio\\PROJECTS\\API_JWT\\API\\API.csproj": {}
+    "C:\\Users\\migue\\Downloads\\API_JWT\\API_JWT\\API\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\migue\\OneDrive\\Escritorio\\PROJECTS\\API_JWT\\API\\API.csproj": {
+    "C:\\Users\\migue\\Downloads\\API_JWT\\API_JWT\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\migue\\OneDrive\\Escritorio\\PROJECTS\\API_JWT\\API\\API.csproj",
+        "projectUniqueName": "C:\\Users\\migue\\Downloads\\API_JWT\\API_JWT\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\migue\\OneDrive\\Escritorio\\PROJECTS\\API_JWT\\API\\API.csproj",
+        "projectPath": "C:\\Users\\migue\\Downloads\\API_JWT\\API_JWT\\API\\API.csproj",
         "packagesPath": "C:\\Users\\migue\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\migue\\OneDrive\\Escritorio\\PROJECTS\\API_JWT\\API\\obj\\",
+        "outputPath": "C:\\Users\\migue\\Downloads\\API_JWT\\API_JWT\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\migue\\AppData\\Roaming\\NuGet\\NuGet.Config",
